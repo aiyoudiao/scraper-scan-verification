@@ -1,0 +1,33 @@
+{
+  "name": "iscan",
+  "version": "0.1.0",
+  "description": "based on scraper, to write a simple tool for scanning web files. 基于scraper，写一个扫描网络文件的简单工具。",
+  "main": "./src/main.js",
+  "type": "module",
+  "bin": {
+    "iscan": "./bin/iscan.mjs"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "iscan"
+  ],
+  "author": "aiyoudiao",
+  "license": " GPL-3.0 license",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "signale": "^1.4.0",
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyoudiao/scraper-scan-verification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aiyoudiao/scraper-scan-verification/issues"
+  },
+  "homepage": "https://github.com/aiyoudiao/scraper-scan-verification#readme"
+}
