@@ -1,6 +1,6 @@
 {
   "name": "iscan",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "based on scraper, to write a simple tool for scanning web files. 基于scraper，写一个扫描网络文件的简单工具。",
   "main": "./src/main.js",
   "type": "module",
