@@ -83,6 +83,7 @@ export default async () => {
       });
 
       spinner.succeed(`Visit ${chalk.cyan(site)}`);
+      signale.success(`Visited ${chalk.cyan(site)}`);
       const recursiveCheck = async (list, index = 0) => {
         // 过滤掉要排除的文件
         list = list.filter(
